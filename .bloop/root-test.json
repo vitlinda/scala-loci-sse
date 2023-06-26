@@ -1,0 +1,679 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root-test",
+        "directory": "/home/vitlinda/pjs/scala-loci-examples",
+        "workspaceDir": "/home/vitlinda/pjs/scala-loci-examples",
+        "sources": [
+            "/home/vitlinda/pjs/scala-loci-examples/src/test/scala",
+            "/home/vitlinda/pjs/scala-loci-examples/src/test/scala-2.13",
+            "/home/vitlinda/pjs/scala-loci-examples/src/test/scala-2",
+            "/home/vitlinda/pjs/scala-loci-examples/src/test/java",
+            "/home/vitlinda/pjs/scala-loci-examples/target/scala-2.13/src_managed/test"
+        ],
+        "dependencies": [
+            "root"
+        ],
+        "classpath": [
+            "/home/vitlinda/pjs/scala-loci-examples/.bloop/root/scala-2.13/classes",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-language_2.13/0.5.0/scala-loci-language_2.13-0.5.0.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-language-runtime_2.13/0.5.0/scala-loci-language-runtime_2.13-0.5.0.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-language-transmitter-rescala_2.13/0.5.0/scala-loci-language-transmitter-rescala_2.13-0.5.0.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-serializer-upickle_2.13/0.5.0/scala-loci-serializer-upickle_2.13-0.5.0.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-communicator-tcp_2.13/0.5.0/scala-loci-communicator-tcp_2.13-0.5.0.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/retypecheck_2.13/0.10.0/retypecheck_2.13-0.10.0.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-communication_2.13/0.5.0/scala-loci-communication_2.13-0.5.0.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-transmitter-rescala_2.13/0.5.0/scala-loci-transmitter-rescala_2.13-0.5.0.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.13/1.4.2/upickle_2.13-1.4.2.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalamacros/resetallattrs_2.13/1.0.0/resetallattrs_2.13-1.0.0.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe_2.13/3.6.3/scribe_2.13-3.6.3.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/de/tu-darmstadt/stg/rescala_2.13/0.31.0/rescala_2.13-0.31.0.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/1.4.2/ujson_2.13-1.4.2.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.13/1.4.2/upack_2.13-1.4.2.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.13/1.4.2/upickle-implicits_2.13-1.4.2.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/perfolation_2.13/1.2.8/perfolation_2.13-1.2.8.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.2.7/sourcecode_2.13-0.2.7.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/moduload_2.13/1.1.5/moduload_2.13-1.1.5.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/1.4.2/upickle-core_2.13-1.4.2.jar",
+            "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.10/geny_2.13-0.6.10.jar"
+        ],
+        "out": "/home/vitlinda/pjs/scala-loci-examples/.bloop/root",
+        "classesDir": "/home/vitlinda/pjs/scala-loci-examples/.bloop/root/scala-2.13/test-classes",
+        "resources": [
+            "/home/vitlinda/pjs/scala-loci-examples/src/test/resources",
+            "/home/vitlinda/pjs/scala-loci-examples/target/scala-2.13/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.10",
+            "options": [
+                "-feature",
+                "-deprecation",
+                "-unchecked",
+                "-Xlint",
+                "-Ymacro-annotations"
+            ],
+            "jars": [
+                "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar",
+                "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.10/scala-compiler-2.13.10.jar",
+                "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.10/scala-reflect-2.13.10.jar",
+                "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar",
+                "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar",
+                "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-17-openjdk",
+                "options": [
+                    "-Duser.dir=/home/vitlinda/pjs/scala-loci-examples"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.github.scala-loci",
+                    "name": "scala-loci-language-runtime_2.13",
+                    "version": "0.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-loci-language-runtime_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-language-runtime_2.13/0.5.0/scala-loci-language-runtime_2.13-0.5.0.jar"
+                        },
+                        {
+                            "name": "scala-loci-language-runtime_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-language-runtime_2.13/0.5.0/scala-loci-language-runtime_2.13-0.5.0-sources.jar"
+                        },
+                        {
+                            "name": "scala-loci-language-runtime_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-language-runtime_2.13/0.5.0/scala-loci-language-runtime_2.13-0.5.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.github.scala-loci",
+                    "name": "scala-loci-language-transmitter-rescala_2.13",
+                    "version": "0.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-loci-language-transmitter-rescala_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-language-transmitter-rescala_2.13/0.5.0/scala-loci-language-transmitter-rescala_2.13-0.5.0.jar"
+                        },
+                        {
+                            "name": "scala-loci-language-transmitter-rescala_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-language-transmitter-rescala_2.13/0.5.0/scala-loci-language-transmitter-rescala_2.13-0.5.0-sources.jar"
+                        },
+                        {
+                            "name": "scala-loci-language-transmitter-rescala_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-language-transmitter-rescala_2.13/0.5.0/scala-loci-language-transmitter-rescala_2.13-0.5.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.github.scala-loci",
+                    "name": "scala-loci-serializer-upickle_2.13",
+                    "version": "0.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-loci-serializer-upickle_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-serializer-upickle_2.13/0.5.0/scala-loci-serializer-upickle_2.13-0.5.0.jar"
+                        },
+                        {
+                            "name": "scala-loci-serializer-upickle_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-serializer-upickle_2.13/0.5.0/scala-loci-serializer-upickle_2.13-0.5.0-sources.jar"
+                        },
+                        {
+                            "name": "scala-loci-serializer-upickle_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-serializer-upickle_2.13/0.5.0/scala-loci-serializer-upickle_2.13-0.5.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.github.scala-loci",
+                    "name": "scala-loci-communicator-tcp_2.13",
+                    "version": "0.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-loci-communicator-tcp_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-communicator-tcp_2.13/0.5.0/scala-loci-communicator-tcp_2.13-0.5.0.jar"
+                        },
+                        {
+                            "name": "scala-loci-communicator-tcp_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-communicator-tcp_2.13/0.5.0/scala-loci-communicator-tcp_2.13-0.5.0-sources.jar"
+                        },
+                        {
+                            "name": "scala-loci-communicator-tcp_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-communicator-tcp_2.13/0.5.0/scala-loci-communicator-tcp_2.13-0.5.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.github.scala-loci",
+                    "name": "scala-loci-communication_2.13",
+                    "version": "0.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-loci-communication_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-communication_2.13/0.5.0/scala-loci-communication_2.13-0.5.0.jar"
+                        },
+                        {
+                            "name": "scala-loci-communication_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-communication_2.13/0.5.0/scala-loci-communication_2.13-0.5.0-sources.jar"
+                        },
+                        {
+                            "name": "scala-loci-communication_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-communication_2.13/0.5.0/scala-loci-communication_2.13-0.5.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.github.scala-loci",
+                    "name": "retypecheck_2.13",
+                    "version": "0.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "retypecheck_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/retypecheck_2.13/0.10.0/retypecheck_2.13-0.10.0.jar"
+                        },
+                        {
+                            "name": "retypecheck_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/retypecheck_2.13/0.10.0/retypecheck_2.13-0.10.0-sources.jar"
+                        },
+                        {
+                            "name": "retypecheck_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/retypecheck_2.13/0.10.0/retypecheck_2.13-0.10.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.github.scala-loci",
+                    "name": "scala-loci-transmitter-rescala_2.13",
+                    "version": "0.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-loci-transmitter-rescala_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-transmitter-rescala_2.13/0.5.0/scala-loci-transmitter-rescala_2.13-0.5.0.jar"
+                        },
+                        {
+                            "name": "scala-loci-transmitter-rescala_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-transmitter-rescala_2.13/0.5.0/scala-loci-transmitter-rescala_2.13-0.5.0-sources.jar"
+                        },
+                        {
+                            "name": "scala-loci-transmitter-rescala_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-transmitter-rescala_2.13/0.5.0/scala-loci-transmitter-rescala_2.13-0.5.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle_2.13",
+                    "version": "1.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.13/1.4.2/upickle_2.13-1.4.2.jar"
+                        },
+                        {
+                            "name": "upickle_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.13/1.4.2/upickle_2.13-1.4.2-sources.jar"
+                        },
+                        {
+                            "name": "upickle_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.13/1.4.2/upickle_2.13-1.4.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.outr",
+                    "name": "scribe_2.13",
+                    "version": "3.6.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scribe_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe_2.13/3.6.3/scribe_2.13-3.6.3.jar"
+                        },
+                        {
+                            "name": "scribe_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe_2.13/3.6.3/scribe_2.13-3.6.3-sources.jar"
+                        },
+                        {
+                            "name": "scribe_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe_2.13/3.6.3/scribe_2.13-3.6.3-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalamacros",
+                    "name": "resetallattrs_2.13",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "resetallattrs_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalamacros/resetallattrs_2.13/1.0.0/resetallattrs_2.13-1.0.0.jar"
+                        },
+                        {
+                            "name": "resetallattrs_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalamacros/resetallattrs_2.13/1.0.0/resetallattrs_2.13-1.0.0-sources.jar"
+                        },
+                        {
+                            "name": "resetallattrs_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalamacros/resetallattrs_2.13/1.0.0/resetallattrs_2.13-1.0.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "de.tu-darmstadt.stg",
+                    "name": "rescala_2.13",
+                    "version": "0.31.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "rescala_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/de/tu-darmstadt/stg/rescala_2.13/0.31.0/rescala_2.13-0.31.0.jar"
+                        },
+                        {
+                            "name": "rescala_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/de/tu-darmstadt/stg/rescala_2.13/0.31.0/rescala_2.13-0.31.0-sources.jar"
+                        },
+                        {
+                            "name": "rescala_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/de/tu-darmstadt/stg/rescala_2.13/0.31.0/rescala_2.13-0.31.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "ujson_2.13",
+                    "version": "1.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ujson_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/1.4.2/ujson_2.13-1.4.2.jar"
+                        },
+                        {
+                            "name": "ujson_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/1.4.2/ujson_2.13-1.4.2-sources.jar"
+                        },
+                        {
+                            "name": "ujson_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/1.4.2/ujson_2.13-1.4.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upack_2.13",
+                    "version": "1.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upack_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.13/1.4.2/upack_2.13-1.4.2.jar"
+                        },
+                        {
+                            "name": "upack_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.13/1.4.2/upack_2.13-1.4.2-sources.jar"
+                        },
+                        {
+                            "name": "upack_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.13/1.4.2/upack_2.13-1.4.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-implicits_2.13",
+                    "version": "1.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle-implicits_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.13/1.4.2/upickle-implicits_2.13-1.4.2.jar"
+                        },
+                        {
+                            "name": "upickle-implicits_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.13/1.4.2/upickle-implicits_2.13-1.4.2-sources.jar"
+                        },
+                        {
+                            "name": "upickle-implicits_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.13/1.4.2/upickle-implicits_2.13-1.4.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.outr",
+                    "name": "perfolation_2.13",
+                    "version": "1.2.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "perfolation_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/perfolation_2.13/1.2.8/perfolation_2.13-1.2.8.jar"
+                        },
+                        {
+                            "name": "perfolation_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/perfolation_2.13/1.2.8/perfolation_2.13-1.2.8-sources.jar"
+                        },
+                        {
+                            "name": "perfolation_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/perfolation_2.13/1.2.8/perfolation_2.13-1.2.8-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "sourcecode_2.13",
+                    "version": "0.2.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sourcecode_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.2.7/sourcecode_2.13-0.2.7.jar"
+                        },
+                        {
+                            "name": "sourcecode_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.2.7/sourcecode_2.13-0.2.7-sources.jar"
+                        },
+                        {
+                            "name": "sourcecode_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.2.7/sourcecode_2.13-0.2.7-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_2.13",
+                    "version": "2.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0-sources.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.outr",
+                    "name": "moduload_2.13",
+                    "version": "1.1.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "moduload_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/moduload_2.13/1.1.5/moduload_2.13-1.1.5.jar"
+                        },
+                        {
+                            "name": "moduload_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/moduload_2.13/1.1.5/moduload_2.13-1.1.5-sources.jar"
+                        },
+                        {
+                            "name": "moduload_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/moduload_2.13/1.1.5/moduload_2.13-1.1.5-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-core_2.13",
+                    "version": "1.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle-core_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/1.4.2/upickle-core_2.13-1.4.2.jar"
+                        },
+                        {
+                            "name": "upickle-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/1.4.2/upickle-core_2.13-1.4.2-sources.jar"
+                        },
+                        {
+                            "name": "upickle-core_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/1.4.2/upickle-core_2.13-1.4.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "geny_2.13",
+                    "version": "0.6.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "geny_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.10/geny_2.13-0.6.10.jar"
+                        },
+                        {
+                            "name": "geny_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.10/geny_2.13-0.6.10-sources.jar"
+                        },
+                        {
+                            "name": "geny_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.10/geny_2.13-0.6.10-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.github.scala-loci",
+                    "name": "scala-loci-language_2.13",
+                    "version": "0.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-loci-language_2.13",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-language_2.13/0.5.0/scala-loci-language_2.13-0.5.0.jar"
+                        },
+                        {
+                            "name": "scala-loci-language_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-language_2.13/0.5.0/scala-loci-language_2.13-0.5.0-sources.jar"
+                        },
+                        {
+                            "name": "scala-loci-language_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/scala-loci/scala-loci-language_2.13/0.5.0/scala-loci-language_2.13-0.5.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.10",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "javadoc",
+                            "path": "/home/vitlinda/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-javadoc.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
