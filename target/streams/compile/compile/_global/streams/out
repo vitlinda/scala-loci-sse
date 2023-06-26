@@ -1,4 +1,0 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/vitlinda/pjs/scala-loci-examples/src/main/scala/simplechat/Chat.scala:3:13: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport loci._[0m
-[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
