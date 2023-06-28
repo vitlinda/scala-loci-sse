@@ -29,16 +29,17 @@ import loci.serializer.upickle._
     }
   }
 
-  def pinger(): Unit on Pinger = {
-    ping.fire("ping")
-  }
+//  def pinger(): Unit on Pinger = {
+//    ping.fire("ping")
+//  }
 
-  def ponger(): Unit on Ponger = { }
+//  def ponger(): Unit on Ponger = { }
 
   def main(): Unit on Node = on[Pinger] {
-    pinger()
+//    pinger()
+    ping.fire("ping")
   } and on[Ponger] {
-    ponger()
+//    ponger()
   }
 }
 
